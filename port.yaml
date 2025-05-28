@@ -1,0 +1,16 @@
+- identifier: some_identifier
+  title: Some Title
+  team: []
+  icon: DefaultBlueprint
+  blueprint: k8s_pod
+  properties:
+    labels:
+      a: 1
+      b: 2
+    phase: string
+    startTime: '2025-05-28T12:43:54.431Z'
+  relations:
+    k8s_workload: related_entity_identifier
+    Node: related_entity_identifier
+    workload: related_entity_identifier
+    replicaSet: related_entity_identifier
