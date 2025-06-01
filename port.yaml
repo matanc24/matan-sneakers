@@ -2,15 +2,16 @@
   title: Some Title
   team: []
   icon: DefaultBlueprint
-  blueprint: k8s_pod
+  blueprint: githubRepository
   properties:
-    labels:
-      a: 1
-      b: 2
-    phase: string
-    startTime: '2025-05-28T12:43:54.431Z'
+    readme: string
+    url: https://example.com
+    defaultBranch: string
+    last_contributor: string
+    last_push: '2025-06-01T09:26:47.333Z'
+    require_code_owner_review: false
+    require_approval_count: 0
   relations:
-    k8s_workload: related_entity_identifier
-    Node: related_entity_identifier
-    workload: related_entity_identifier
-    replicaSet: related_entity_identifier
+    githubTeams:
+      - related_entity_identifier
+      - another_related_entity_identifier
