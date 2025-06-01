@@ -8,7 +8,7 @@
     url: https://example.com
     defaultBranch: string
     last_contributor: string
-    last_push: '2025-06-01T09:26:47.333Z'
+    last_push: '2025-06-01T09:30:45.314Z'
     require_code_owner_review: false
     require_approval_count: 0
   relations:
